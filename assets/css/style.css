@@ -1,0 +1,101 @@
+/* Startregion utilities */
+:root {
+    --light: #FFFFFF;
+    --dark: #333333;
+    --primary: #1ABC9C;
+    --house: #BA4B63;
+    --cake: #1EA4B6;
+    --circus: #140F0F;
+    --game: #1C83C1;
+    --lock: #0E38B5;
+    --submarine: #CCB2A3;
+    --footer-primary: #3A546D;
+    --secondary: #2C3E50;
+}
+
+.bg_color_secondary{
+    background-color: var(--secondary);
+}
+/* endregion utilities */
+
+
+/* navbar */
+nav {
+    color: var(--light);
+}
+
+/* jumbotron */
+#jumbotron {
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* portfolio */
+
+/* about */
+#about {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+/* contact me */
+
+/* footer */
+footer {
+    background-color: var(--footer-primary);
+    color: var(--light);
+}
+
+
+
+/* debug */
+.debug {
+    
+}
+
+.debug nav {
+    height: 50px;
+}
+
+.debug nav div[class*="col"] {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 30px;
+}
+
+.debug #jumbotron .claim_info {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.debug #portfolio div[class*="col-"] {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.debug #about div[class*="col-"] {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.debug #contact_me .container {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.debug footer div[class*="col-"] {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.debug footer .container-fluid {
+    height: 100px;
+}
+
