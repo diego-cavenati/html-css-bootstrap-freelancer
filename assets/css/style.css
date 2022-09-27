@@ -13,11 +13,44 @@
     --secondary: #2C3E50;
 }
 
+.bg_color_primary{
+    background-color: var(--primary);
+}
+
 .bg_color_secondary{
     background-color: var(--secondary);
 }
-/* endregion utilities */
 
+.bg_color_light {
+    background-color: var(--light);
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.separator i {
+    padding: 0 1rem;
+}
+
+.line {
+    background-color: var(--light);
+    height: 3px;
+    width: 120px;
+    display: inline-block;
+}
+
+.line_black {
+    background-color: var(--dark);
+    height: 3px;
+    width: 120px;
+    display: inline-block;
+}
+
+/* endregion utilities */
 
 /* navbar */
 nav {
@@ -30,6 +63,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#jumbotron img {
+    width: 50%;
+    padding-bottom: 1rem;
 }
 
 /* portfolio */
